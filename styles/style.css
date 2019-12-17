@@ -1,0 +1,32 @@
+div {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 400px;
+    color: red;
+    animation: heart 0.6s infinite linear;
+
+}
+
+
+
+
+
+@keyframes  heart {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
